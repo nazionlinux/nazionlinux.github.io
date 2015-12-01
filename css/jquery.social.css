@@ -1,0 +1,47 @@
+/*#social .fa {outline: none; }*/
+/*A {
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}*/
+/* Visitor */
+A.visitor I,.visitor H4.list-group-item-heading { color:#E48A07; }
+A.visitor:hover, ARTICLE.visitor, ARTICLE.visitor .panel-footer { background-color:#E48A07; }
+A.visitor:hover *, ARTICLE.visitor, ARTICLE.visitor .panel-footer { color:#FFF; }
+/* Facebook */
+A.facebook I,.facebook H4.list-group-item-heading { color:#3b5998; }
+A.facebook:hover, ARTICLE.facebook, ARTICLE.facebook .panel-footer { background-color:#3b5998; }
+A.facebook:hover *, ARTICLE.facebook, ARTICLE.facebook .panel-footer { color:#FFF; }
+/* Google */
+A.google I,.google H4.list-group-item-heading { color:#dd4b39; }
+A.google:hover, ARTICLE.google, ARTICLE.google .panel-footer { background-color:#dd4b39; }
+A.google:hover *, ARTICLE.google, ARTICLE.google .panel-footer { color:#FFF; }
+/* Twitter */
+A.twitter I,.twitter H4.list-group-item-heading { color:#00acee; }
+A.twitter:hover, ARTICLE.twitter, ARTICLE.twitter .panel-footer { background-color:#00acee; }
+A.twitter:hover *, ARTICLE.twitter, ARTICLE.twitter .panel-footer { color:#FFF; }
+/* Linkedin */
+A.linkedin I,.linkedin H4.list-group-item-heading { color:#0e76a8; }
+A.linkedin:hover, ARTICLE.linkedin, ARTICLE.linkedin .panel-footer { background-color:#0e76a8; }
+A.linkedin:hover *, ARTICLE.linkedin, ARTICLE.linkedin .panel-footer { color:#FFF; }
+/* Tumblr */
+A.tumblr I,.tumblr H4.list-group-item-heading { color:#34526f; }
+A.tumblr:hover, ARTICLE.tumblr, ARTICLE.tumblr .panel-footer { background-color:#34526f; }
+A.tumblr:hover *, ARTICLE.tumblr, ARTICLE.tumblr .panel-footer { color:#FFF; }
+/* Youtube */
+A.youtube I,.youtube H4.list-group-item-heading { color:#c4302b; }
+A.youtube:hover, ARTICLE.youtube, ARTICLE.youtube .panel-footer { background-color:#c4302b; }
+A.youtube:hover *, ARTICLE.youtube, ARTICLE.youtube .panel-footer { color:#FFF; }
+/* Vimeo */
+A.vimeo I,.vimeo H4.list-group-item-heading { color:#44bbff; }
+A.vimeo:hover, ARTICLE.vimeo, ARTICLE.vimeo .panel-footer { background-color:#44bbff; }
+A.vimeo:hover *, ARTICLE.vimeo, ARTICLE.vimeo .panel-footer { color:#FFF; }
+/* Instagram */
+A.instagram I,.instagram H4.list-group-item-heading { color:#125688; }
+A.instagram:hover, ARTICLE.instagram, ARTICLE.instagram .panel-footer { background-color:#125688; }
+A.instagram:hover *, ARTICLE.instagram, ARTICLE.instagram .panel-footer { color:#FFF; }
+/* Pinterest */
+A.pinterest I,.pinterest H4.list-group-item-heading { color:#cb2027; }
+A.pinterest:hover, ARTICLE.pinterest, ARTICLE.pinterest .panel-footer { background-color:#cb2027; }
+A.pinterest:hover *, ARTICLE.pinterest, ARTICLE.pinterest .panel-footer { color:#FFF; }

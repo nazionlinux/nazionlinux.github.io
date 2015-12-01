@@ -1,0 +1,96 @@
+/*
+	Name:			HTML5 Template
+	Description:	Sample layout for HTML5 and CSS3 goodness.
+	Author:			Nazion Linux
+	Version:		1.0
+	Site:			http://nazionlinux.com
+	Date:			20 April 2015
+	Copyleft:
+*/
+
+/* Imports */
+/*@import url("normalize.min.css");
+@import url("typography.css");
+@import url("font-awesome.min.css");*/
+@import url('http://fonts.googleapis.com/css?family=Cabin');
+@import url('http://fonts.googleapis.com/css?family=Roboto:400');
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+/***** Global *****/
+
+
+/*****************
+	Body
+*****************/
+BODY{
+	/*font-family: 'Roboto', sans-serif;*/
+	/*font-family: 'Cabin', sans-serif;
+	font-weight: 400;*/
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	background-color: #e7e7e7;
+	padding-top: 70px;
+}
+
+/*****************
+	Header
+*****************/
+.jumbotron {
+	background-color: #fff;
+    /*background: #fff url("../img/3wanz251pl.jpg") no-repeat center center;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -o-background-size: 100% 100%;*/
+}
+
+/*****************
+	Footer
+*****************/
+#copyleft{
+	color:#fff;
+	background-color:#900;
+	padding:.5em;
+}
+
+/*****************
+	Aside
+*****************/
+.panel .img-circle {
+    height: 50px;
+    width: 50px;
+}
+
+/*****************
+	Brand
+*****************/
+.navbar-brand{
+	font-family: 'Oleo Script', cursive;
+}
+
+/*****************
+	Buttons
+*****************/
+.btn-round {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.btn-round.btn-lg {
+    width: 48px;
+    height: 48px;
+}
+
+.btn-round.btn-sm {
+    width: 34px;
+    height: 34px;
+}
+
+.btn-round.btn-xs {
+    width: 24px;
+    height: 24px;
+}
+
+/* OMBRE */

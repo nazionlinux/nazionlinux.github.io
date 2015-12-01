@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="it">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" /> -->
+
+		<title>Nazion Linux</title>
+
+		<!-- CSS type="text/css" non serve
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/font-awesome.min.css" />
+		<link rel="stylesheet" href="css/jquery.modalbox.css" />
+		<link rel="stylesheet" href="css/jquery.social.css" />
+		<link rel="stylesheet" href="css/style.css" />
+
+		<!-- FAVICONS
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<link rel="icon" type="image/png" href="./favicon.png" />
+		<!-- Internet Explore 5.5, 6 & 7 does NOT support PNG, GIF and JPEG type icons, only ICO files -->
+		<!--[if IE]><link rel="shortcut icon" href="./favicon.ico" /><![endif]-->
+		<link rel="apple-touch-icon" href="./apple-touch-icon.png">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="scr/html5shiv.min.js"></script>
+			<script src="scr/respond.min.js"></script>
+		<![endif]-->
+
+	</head>
+	<body>
+
+        <nav role="navigation" class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand">Nazion Linux</a>
+                </div><!-- .navbar-header -->
+                <!-- Collection of nav links, forms, and other content for toggling -->
+                <div id="navbarCollapse" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+                        <li><a id="btnToggle" href="#"><i class="fa fa-th-large"></i></a></li>
+                    </ul><!-- .navbar-nav -->
+                </div><!-- #navbarCollapse -->
+            </div><!-- .container-fluid -->
+        </nav>
+
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col-lg-6 col-lg-offset-2 col-md-6 col-md-offset-2">
+
+					<main id="main" role="main">
+
+                        <article class="panel panel-default">
+                            <header class="panel-heading text-center">
+                            	<div class="dropdown pull-right">
+                            		<a data-toggle="dropdown" href="#" class="dropdown-toggle"><i class="fa fa-bars pull-right"></i></a>
+                            		<ul class="dropdown-menu animated bounceIn">
+                            			<li role="presentation"><a href="" tabindex="-1" role="menuitem"><i class="fa fa-cog pull-right"></i> link 1</a></li>
+                            			<li role="presentation"><a href="" tabindex="-1" role="menuitem"><i class="fa fa-bookmark pull-right"></i> link 2</a></li>
+                            			<li role="presentation"><a href="" tabindex="-1" role="menuitem"><span class="badge pull-right"> 69 </span> link 3</a></li>
+                            			<li class="divider" role="presentation"></li>
+                            			<li role="presentation"><a href="" tabindex="-1" role="menuitem"><i class="fa fa-trash pull-right"></i> Elimina</a></li>
+                            		</ul>
+                            	</div>
+                            	<h3 class="panel-title">Nazion Linux</h3>
+                            </header><!-- //.panel-heading -->
+                    		<div class="panel-body text-center">
+                    			<figure>
+                    				<img class="img-responsive modalbox lazyLoad" src="https://flic.kr/p/gBbmsY" data-src="loaded" alt="Archlinux">
+                    			</figure>
+                    			<p class="h4 text-thin collapse" id="content0">Nazion Linux</p>
+                    		</div>
+                            <footer class="panel-footer">
+                            	<div class="pull-right">
+                            		<button data-toggle="collapse" data-target="#content0" type="button" class="btn btn-primary btn-xs btn-round"><span aria-hidden="true" class="fa fa-angle-down"></span></button>
+                            	</div>
+                            	<ul class="list-inline">
+                            		<li><a href="#"><i class="fa fa-heart"></i> Mi piace</a></li>
+                            	</ul>
+                            </footer><!-- //.panel-footer -->
+                    	</article>
+
+			        </main>
+
+				</div><!-- .col -->
+
+				<div class="col-lg-2 col-md-2">
+
+			        <aside id="sidebar" role="complementary">
+
+						<article class="panel twitter text-center">
+							<header class="panel-heading">
+								<h4 class="text-uppercase">Twitter</h4>
+							</header>
+							<div class="panel-body">
+								<i class="fa fa-twitter fa-5x"></i>
+								<p class="h2 text-thin">Tweet 245</p>
+								<small><a href="https://twitter.com/nazionlinux">@nazionlinux</a></small>
+							</div>
+							<footer class="panel-footer">
+								<small><span class=""><i class="fa fa-dollar fa-fw"></i> 15</span> Total Follower</small>
+							</footer>
+						</article>
+
+			        </aside>
+
+				</div><!-- .col -->
+
+			</div><!-- .row -->
+
+		</div><!-- .container -->
+
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><i class="fa fa-remove" aria-hidden="true"></i></button>
+                        <h4 class="modal-title"></h4>
+                    </div>
+                    <div class="modal-body"></div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+		<!-- SCRIPTS type="text/javascript" non serve
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<script src="scr/jquery-2.1.4.min.js"></script>
+		<script src="scr/bootstrap.min.js"></script>
+		<script src="scr/jquery.modalbox.js"></script>
+        <script src="scr/jquery.layout.js"></script>
+		<script src="scr/lazyloader.min.js"></script><!-- Mobile Compatible -->
+		<script src="scr/jquery-custom.js"></script>
+
+	</body>
+</html>
