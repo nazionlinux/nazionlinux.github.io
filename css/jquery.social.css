@@ -5,6 +5,9 @@
     -moz-transition: all .3s ease;
     -o-transition: all .3s ease;
 }*/
+
+NAV .social A:hover * {color:#000;}
+
 /* Visitor */
 A.visitor I,.visitor H4.list-group-item-heading { color:#E48A07; }
 A.visitor:hover, ARTICLE.visitor, ARTICLE.visitor .panel-footer { background-color:#E48A07; }
