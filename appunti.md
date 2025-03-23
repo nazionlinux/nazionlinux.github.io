@@ -9,7 +9,7 @@ footnotes:
     - ''
 ---
 
-##### Velocizzare Firefox
+#### Velocizzare Firefox
 
 about:config
 
@@ -25,13 +25,13 @@ come valore:
 
 ---
 
-##### Velocizzare Chromium
+#### Velocizzare Chromium
 
 `chromium %U --disk-cache-dir="/dev/shm/chromium"`
 
 ---
 
-##### Archlinux: mantiene la versione corrente e la penultima dei pacchetti
+#### Archlinux: mantiene la versione corrente e la penultima dei pacchetti
 
 aggiornare il database
 
@@ -45,7 +45,7 @@ installare il pacchetto pacman-contrib
 
 ---
 
-##### Archlinux: rimuovere dipendenze non più necessarie
+#### Archlinux: rimuovere dipendenze non più necessarie
 
 visualizzare i pacchetti e le dipendenze non più necessarie
 
@@ -61,7 +61,7 @@ reinstallare tutti i pacchetti del vostro sistema (se disponibili in un reposito
 
 ---
 
-##### Modificare i permessi solo dei files contenuti nella cartella e in tutte le sottocartelle
+#### Modificare i permessi solo dei files contenuti nella cartella e in tutte le sottocartelle
 
 (escludendo le cartelle)
 
@@ -73,31 +73,31 @@ altro: lettura (4)
 
 ---
 
-##### Eliminare i files Thumbs.db da tutte le cartelle
+#### Eliminare i files Thumbs.db da tutte le cartelle
 
 `find ~ -type f -name 'Thumbs.db' -exec rm {} \;`
 
 ---
 
-##### Conoscere il nostro IP pubblico con curl
+#### Conoscere il nostro IP pubblico con curl
 
 `curl ifconfig.me`
 
 ---
 
-##### Sincronizzare una cartella remota con una locale
+#### Sincronizzare una cartella remota con una locale
 
 `rsync -rtvz --exclude 'cartella/da/escludere' utente@dominio:/var/www/cartella ~/documenti`
 
 ---
 
-##### Copiare una cartella locale con una remota (utente remoto)
+#### Copiare una cartella locale con una remota (utente remoto)
 
 `rsync -avzP -e 'ssh' $HOME/documenti/ utente@192.168.1.11:$HOME/documenti/`
 
 ---
 
-##### Da file ISO a USB
+#### Da file ISO a USB
 
 da root
 
@@ -105,7 +105,7 @@ da root
 
 ---
 
-##### Creare un utente in Archlinux
+#### Creare un utente in Archlinux
 
 da root
 
@@ -115,11 +115,11 @@ il gruppo **wheel** è utilizzato per consentire l’accesso tramite **sudo** o 
 
 ---
 
-##### Eliminare un utente in Archlinux
+#### Eliminare un utente in Archlinux
 
 da root
 
-`userdel -r <em>utente</em>`
+`userdel -r _utente_`
 
 l’opzione **-r** elimina la cartella home dell’utente
 
