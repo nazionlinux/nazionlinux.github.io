@@ -1,8 +1,8 @@
-title: "Blog Title"
+title: "Nazion Linux"
 author: "Blog Author"
-description: "Made with <b style=\"color: #f45;\">&lt;3</b>"
+description: "Made with Jekyll"
 permalink: /:title/
-lang: "en"
+lang: "it"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
 
