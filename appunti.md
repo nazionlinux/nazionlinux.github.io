@@ -109,7 +109,7 @@ da root
 
 da root
 
-`useradd -m -G wheel -s /bin/bash <em>utente</em>`
+`useradd -m -G wheel -s /bin/bash _utente_`
 
 il gruppo **wheel** è utilizzato per consentire l’accesso tramite **sudo** o **su** e per avere accesso completo in lettura ai files journal
 
