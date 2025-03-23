@@ -49,4 +49,4 @@ Invece per chi avesse già installato **Plasma 5** basterà dare il comando
 
 Per chi invece avesse utilizzato la nostra guida [**https://www.nazionlinux.com/void-linux-bash-alias/**](https://www.nazionlinux.com/void-linux-bash-alias/)
 
-xugy
+ `xugy`
