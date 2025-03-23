@@ -27,7 +27,7 @@ come valore:
 
 ##### Velocizzare Chromium
 
-<div class="wp-terminal">`chromium %U --disk-cache-dir="/dev/shm/chromium"`</div>
+`chromium %U --disk-cache-dir="/dev/shm/chromium"`
 
 ---
 
@@ -35,21 +35,29 @@ come valore:
 
 aggiornare il database
 
-<div class="wp-terminal">`pacman -Syyu`</div>installare il pacchetto pacman-contrib
+`pacman -Syyu`
 
-<div class="wp-terminal">`pacman -S pacman-contrib`</div>lanciare il comando
+installare il pacchetto pacman-contrib
 
-<div class="wp-terminal">`paccache -rvk1`</div>---
+`pacman -S pacman-contrib`</div>lanciare il comando
+
+`paccache -rvk1`
+
+---
 
 ##### Archlinux: rimuovere dipendenze non più necessarie
 
 visualizzare i pacchetti e le dipendenze non più necessarie
 
-<div class="wp-terminal">`pacman -Qdtq`</div>per rimuovere i pacchetti orfani ricorsivamente (attenzione!)
+`pacman -Qdtq`
+    
+per rimuovere i pacchetti orfani ricorsivamente (attenzione!)
 
-<div class="wp-terminal">`pacman -Rs $(pacman -Qtdq)`</div>reinstallare tutti i pacchetti del vostro sistema (se disponibili in un repository attivo)
+`pacman -Rs $(pacman -Qtdq)`
 
-<div class="wp-terminal">`pacman -S $(pacman -Qq | grep -v "$(pacman -Qmq)")`</div>
+reinstallare tutti i pacchetti del vostro sistema (se disponibili in un repository attivo)
+
+`pacman -S $(pacman -Qq | grep -v "$(pacman -Qmq)")`
 
 ---
 
@@ -57,7 +65,9 @@ visualizzare i pacchetti e le dipendenze non più necessarie
 
 (escludendo le cartelle)
 
-<div class="wp-terminal">`find . -type f -exec chmod 644 {} ';'`</div>proprietario: lettura scrittura (6)  
+`find . -type f -exec chmod 644 {} ';'`
+
+proprietario: lettura scrittura (6)  
 gruppo: lettura (4)  
 altro: lettura (4)
 
@@ -65,25 +75,25 @@ altro: lettura (4)
 
 ##### Eliminare i files Thumbs.db da tutte le cartelle
 
-<div class="wp-terminal">`find ~ -type f -name 'Thumbs.db' -exec rm {} \;`</div>
+`find ~ -type f -name 'Thumbs.db' -exec rm {} \;`
 
 ---
 
 ##### Conoscere il nostro IP pubblico con curl
 
-<div class="wp-terminal">`curl ifconfig.me`</div>
+`curl ifconfig.me`
 
 ---
 
 ##### Sincronizzare una cartella remota con una locale
 
-<div class="wp-terminal">`rsync -rtvz --exclude 'cartella/da/escludere' utente@dominio:/var/www/cartella ~/documenti`</div>
+`rsync -rtvz --exclude 'cartella/da/escludere' utente@dominio:/var/www/cartella ~/documenti`
 
 ---
 
 ##### Copiare una cartella locale con una remota (utente remoto)
 
-<div class="wp-terminal">`rsync -avzP -e 'ssh' $HOME/documenti/ utente@192.168.1.11:$HOME/documenti/`</div>
+`rsync -avzP -e 'ssh' $HOME/documenti/ utente@192.168.1.11:$HOME/documenti/`
 
 ---
 
@@ -91,7 +101,7 @@ altro: lettura (4)
 
 da root
 
-<div class="wp-terminal">`dd if=/percorso/archlinux-2020.01.09-dual.iso of=/dev/sdb status=progress`</div>
+`dd if=/percorso/archlinux-2020.01.09-dual.iso of=/dev/sdb status=progress`
 
 ---
 
@@ -99,7 +109,9 @@ da root
 
 da root
 
-<div class="wp-terminal">`useradd -m -G wheel -s /bin/bash <em>utente</em>`</div>il gruppo **wheel** è utilizzato per consentire l’accesso tramite **sudo** o **su** e per avere accesso completo in lettura ai files journal
+`useradd -m -G wheel -s /bin/bash <em>utente</em>`
+
+il gruppo **wheel** è utilizzato per consentire l’accesso tramite **sudo** o **su** e per avere accesso completo in lettura ai files journal
 
 ---
 
@@ -107,7 +119,9 @@ da root
 
 da root
 
-<div class="wp-terminal">`userdel -r <em>utente</em>`</div>l’opzione **-r** elimina la cartella home dell’utente
+`userdel -r <em>utente</em>`
+
+l’opzione **-r** elimina la cartella home dell’utente
 
 ---
 
@@ -115,7 +129,7 @@ da root
 
 da terminale
 
-<div class="wp-terminal">`cat /sys/devices/virtual/dmi/id/bios_version`</div>
+`cat /sys/devices/virtual/dmi/id/bios_version`
 
 ---
 
@@ -123,7 +137,7 @@ da terminale
 
 da root
 
-<div class="wp-terminal">`timedatectl set-time "yyyy-MM-dd hh:mm:ss"`</div>
+`timedatectl set-time "yyyy-MM-dd hh:mm:ss"`
 
 ---
 
@@ -131,7 +145,7 @@ da root
 
 wlp3s0 scheda di rete, 11 numero del canale, da root
 
-<div class="wp-terminal">`iwlist wlp3s0 scan | grep 11`</div>
+`iwlist wlp3s0 scan | grep 11`
 
 ---
 
@@ -139,4 +153,4 @@ wlp3s0 scheda di rete, 11 numero del canale, da root
 
 da terminale
 
-<div class="wp-terminal">`cat /sys/class/power_supply/BAT0/capacity`</div>
+`cat /sys/class/power_supply/BAT0/capacity`
