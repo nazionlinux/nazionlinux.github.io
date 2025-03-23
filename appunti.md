@@ -1,14 +1,10 @@
 ---
-id: 153
 title: Appunti
+permalink: "/appunti/"
+layout: page
 date: '2011-09-12T02:29:07+02:00'
 author: NazionLinux
-layout: page
 guid: 'http://www.nazionlinux.com/?page_id=153'
-'Hide SexyBookmarks':
-    - '0'
-'Hide OgTags':
-    - '0'
 footnotes:
     - ''
 ---
