@@ -39,7 +39,7 @@ Come motore grafico predefinito utilizza **Wayland** e per il momento è possibi
 
 Tutte le altre novità toccherà a voi scoprirle qui sotto un breve video
 
-<figure><video controls="" muted="" src="https://kde.org/announcements/megarelease/6/overview.webm"></video></figure>
+<video controls="" muted="" src="https://kde.org/announcements/megarelease/6/overview.webm"></video>
 
 Per installarlo vi consigliamo di seguire la nostra guida [**https://www.nazionlinux.com/voidlinux-plasma-desktop-minimale/**](https://www.nazionlinux.com/voidlinux-plasma-desktop-minimale/)
 
