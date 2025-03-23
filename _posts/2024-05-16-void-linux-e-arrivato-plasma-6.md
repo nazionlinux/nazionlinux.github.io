@@ -33,7 +33,9 @@ Da poco entrato nei depositi di **Void Linux** il nuovo ambiente grafico di **KD
 
 Il pannello come impostazione predefinita è mobile, ma è sempre possibile impostarlo come fisso.
 
-<figure>![](https://kde.org/announcements/megarelease/6/pannel-conf.png)</figure>Come motore grafico predefinito utilizza **Wayland** e per il momento è possibile ancora utilizzare il vecchio motore grafico **X11**.
+![pannello KDE](https://kde.org/announcements/megarelease/6/pannel-conf.png "pannello KDE")
+
+Come motore grafico predefinito utilizza **Wayland** e per il momento è possibile ancora utilizzare il vecchio motore grafico **X11**.
 
 Tutte le altre novità toccherà a voi scoprirle qui sotto un breve video
 
